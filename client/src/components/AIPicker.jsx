@@ -1,8 +1,11 @@
-import React from 'react'
-
+import React from 'react';
 import CustomButton from './CustomButton';
 
-const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
+const AIPicker = ({ prompt, setPrompt, generatingImg }) => {
+  const handleUnavailableFeature = () => {
+    alert("This feature is temporarily not available");
+  };
+
   return (
     <div className="aipicker-container">
       <textarea 
@@ -24,21 +27,21 @@ const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
             <CustomButton 
               type="filled"
               title="AI Logo"
-              handleClick={() => handleSubmit('logo')}
+              handleClick={handleUnavailableFeature}
               customStyles="text-xs"
             />
 
             <CustomButton 
               type="filled"
               title="AI Full"
-              handleClick={() => handleSubmit('full')}
+              handleClick={handleUnavailableFeature}
               customStyles="text-xs"
             />
           </>
         )}
       </div>
     </div>
-  )
+  );
 }
 
-export default AIPicker
+export default AIPicker;

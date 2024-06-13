@@ -28,8 +28,8 @@ html {
 }
 
 .head-text {
-  font-family: 'Bodoni Moda', serif;
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
   @apply xl:text-[10rem] text-[6rem] xl:leading-[11rem] leading-[7rem] text-black;
 }
 
