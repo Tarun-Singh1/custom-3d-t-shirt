@@ -1,0 +1,16 @@
+{
+  "name": "tshirt3d",
+  "version": "1.0.0",
+  "description": "- Create your own T-shirt designs from scratch.💯\r - Customize everything from color to logo to background as per your wish.⚡\r - See your changes in real-time through a 3D Model.🤩\r - Add your own files to customize the logo and background of your t-shirt.🔍\r - Download a PNG image of your customized t-shirt.💥",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.3.0"
+  }
+}
